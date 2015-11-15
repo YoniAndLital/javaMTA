@@ -12,6 +12,15 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>MyProject_1</servlet-name>
 		<url-pattern>/myproject_1</url-pattern>
 	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>exerice3</servlet-name>
+		<servlet-class>com.example.myprojrct.Exerice3</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>exerice3</servlet-name>
+		<url-pattern>/exerice3</url-pattern>
+	</servlet-mapping>
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
