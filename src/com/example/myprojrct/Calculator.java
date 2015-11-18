@@ -3,29 +3,35 @@ package com.example.myprojrct;
 public class Calculator {
 
 static float circle;
-static double radiusCopy;
+static private double radiusCopy;
 static float opposite;
-static double angleCopy;
-static int expCopy;
+static private double angleCopy;
+static private int expCopy;
 static int resultPow;
-static int baseCopy;
+static private int baseCopy;
 
+public void setValues(int radius,int angle,int exp,int base)
+{
+	radiusCopy=radius;
+	angleCopy=angle;
+	expCopy=exp;
+	baseCopy=base;
+}
 public static void calcCircle(double radius)
 {
 	circle=(float) (2*radius*Math.PI);
-	radiusCopy=radius;
+	
 }
 public static void findTriangleOpposite(double angle,double hypotenuse)
 {
 	double change=Math.toRadians(angle);
 	opposite=(float) (Math.sin(change)*hypotenuse);
-	angleCopy=angle;
+	
 }
 public static void power(int base,int exp)
 {
 	resultPow=(int) Math.pow(base, exp);
-	expCopy=exp;
-	baseCopy=base;
+	
 }
 public static String getResults()
 {
