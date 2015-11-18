@@ -2,9 +2,9 @@ package com.example.myprojrct;
 
 public class Calculator {
 
-static double circle;
+static float circle;
 static double radiusCopy;
-static double opposite;
+static float opposite;
 static double angleCopy;
 static int expCopy;
 static int resultPow;
@@ -12,13 +12,13 @@ static int baseCopy;
 
 public static void calcCircle(double radius)
 {
-	circle=2*radius*Math.PI;
+	circle=(float) (2*radius*Math.PI);
 	radiusCopy=radius;
 }
 public static void findTriangleOpposite(double angle,double hypotenuse)
 {
 	double change=Math.toRadians(angle);
-	opposite=Math.sin(change)*hypotenuse;
+	opposite=(float) (Math.sin(change)*hypotenuse);
 	angleCopy=angle;
 }
 public static void power(int base,int exp)
