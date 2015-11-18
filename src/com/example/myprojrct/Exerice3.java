@@ -17,6 +17,7 @@ public class Exerice3 extends HttpServlet {
 		int exp=13;
 		
 		Calculator.calcCircle(radius);
+		Calculator.setValues(radius, angle, exp, base);
 		Calculator.findTriangleOpposite(angle, hypotenuse);
 		Calculator.power(base, exp);
 		String answers=Calculator.getResults();

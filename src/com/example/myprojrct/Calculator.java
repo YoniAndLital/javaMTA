@@ -3,14 +3,14 @@ package com.example.myprojrct;
 public class Calculator {
 
 static float circle;
-static private double radiusCopy;
+static  double radiusCopy;
 static float opposite;
-static private double angleCopy;
-static private int expCopy;
+static  double angleCopy;
+static int expCopy;
 static int resultPow;
-static private int baseCopy;
+static int baseCopy;
 
-public void setValues(int radius,int angle,int exp,int base)
+public static void setValues(double radius,double angle,int exp,int base)
 {
 	radiusCopy=radius;
 	angleCopy=angle;
