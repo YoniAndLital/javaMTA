@@ -7,7 +7,7 @@ static  double radiusCopy;
 static float opposite;
 static  double angleCopy;
 static int expCopy;
-static int resultPow;
+static long  resultPow;
 static int baseCopy;
 
 public static void setValues(double radius,double angle,int exp,int base)
