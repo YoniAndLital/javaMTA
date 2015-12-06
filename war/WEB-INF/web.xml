@@ -6,7 +6,7 @@ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	<servlet>
 		<servlet-name>MyProject_1</servlet-name>
-		<servlet-class>com.example.myprojrct.MyProject_1Servlet</servlet-class>
+		<servlet-class>com.example.myproject.MyProject_1Servlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>MyProject_1</servlet-name>
@@ -14,21 +14,30 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet-mapping>
 	
 		<servlet>
-		<servlet-name>exerice3</servlet-name>
-		<servlet-class>com.example.myprojrct.Exerice3</servlet-class>
+		<servlet-name>Exerice3</servlet-name>
+		<servlet-class>com.example.myproject.Exerice3</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>exerice3</servlet-name>
+		<servlet-name>Exerice3</servlet-name>
 		<url-pattern>/exerice3</url-pattern>
 	</servlet-mapping>
 	
 		<servlet>
 		<servlet-name>StockDetailsServlet</servlet-name>
-		<servlet-class>com.example.myprojrct.StockDetailsServlet</servlet-class>
+		<servlet-class>com.example.myproject.StockDetailsServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>StockDetailsServlet</servlet-name>
 		<url-pattern>/StockDetailsServlet</url-pattern>
+	</servlet-mapping>
+	
+			<servlet>
+		<servlet-name>PortfolioServlet</servlet-name>
+		<servlet-class>com.example.myproject.servlet.PortfolioServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PortfolioServlet</servlet-name>
+		<url-pattern>/PortfolioServlet</url-pattern>
 	</servlet-mapping>
 	
 	<welcome-file-list>

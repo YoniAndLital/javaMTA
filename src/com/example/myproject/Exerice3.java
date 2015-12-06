@@ -1,4 +1,4 @@
-package com.example.myprojrct;
+package com.example.myproject;
 
 import java.io.IOException;
 

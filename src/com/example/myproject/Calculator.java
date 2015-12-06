@@ -1,4 +1,4 @@
-package com.example.myprojrct;
+package com.example.myproject;
 
 public class Calculator {
 
