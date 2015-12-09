@@ -13,7 +13,7 @@ import com.example.myproject.service.PortfolioManager;
 /**
  * 
  * this class creates place in the system to portfolio manager and to portfolio.
- * this class gets data from portfolio manager andd add him to portfolio. 
+ * this class gets data from portfolio manager and add him to portfolio. 
  *
  */
 @SuppressWarnings("unused")
