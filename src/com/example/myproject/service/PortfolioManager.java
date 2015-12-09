@@ -22,7 +22,7 @@ public class PortfolioManager {
 	        
 	        for(int i = 0 ; i < SIZE ; i++)
 	        {
-	        stocks[i] = new Stock(c.getTime());
+	        stocks[i] = new Stock();
 	        }
 			
 	        stocks[0].setSymbol("PIH");

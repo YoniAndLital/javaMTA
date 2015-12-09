@@ -22,25 +22,27 @@ public class Stock {
 	private float bid;
 	private Date date;
 	private SimpleDateFormat sdf;
+	private Calendar c;
 /**
  * this method is a constructor. 
  */
-public Stock(Date date)
+public Stock()
 {
-	//Calendar c = Calendar.getInstance();
-	//this.date=c.getTime();
-	  this.date=date;
+    date=new Date();
+    c=Calendar.getInstance();
+
 }
 /**
- * this method is a copy constructor. we chose that these variables will be updated.
+ * this method is a copy constructor. 
  */
 public Stock(Stock stock)
 {
-	this(new Date(stock.getDate().getTime()));
-	this.symbol=stock.getSymbol();
-	this.ask=stock.getAsk();
-	this.bid=stock.getBid();
-		
+	this.symbol = stock.getSymbol();
+	this.ask = stock.getAsk();
+	this.bid = stock.getBid();
+	this.date = stock.getDate();
+	this.c=Calendar.getInstance();
+	this.c.setTime(date);
 }
 public String getSymbol() {
 	return symbol;
