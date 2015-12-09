@@ -43,7 +43,13 @@ public class Portfolio {
 		else
 			return;
 	}
-
+public void removeStock(Stock stock)
+{
+	for(int i = 0 ; i < portFolioSize ; i++)
+	{
+	
+	}
+}
 	public Stock[] getStocks() {
 		return stocks;
 	}

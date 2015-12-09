@@ -1,6 +1,8 @@
 
 package com.example.myproject.model;
 
+import java.util.Calendar;
+
 import java.util.Date;
 import java.text.SimpleDateFormat;
 /**
@@ -20,7 +22,26 @@ public class Stock {
 	private float bid;
 	private Date date;
 	private SimpleDateFormat sdf;
-	
+/**
+ * this method is a constructor. 
+ */
+public Stock(Date date)
+{
+	//Calendar c = Calendar.getInstance();
+	//this.date=c.getTime();
+	  this.date=date;
+}
+/**
+ * this method is a copy constructor. we chose that these variables will be updated.
+ */
+public Stock(Stock stock)
+{
+	this(new Date(stock.getDate().getTime()));
+	this.symbol=stock.getSymbol();
+	this.ask=stock.getAsk();
+	this.bid=stock.getBid();
+		
+}
 public String getSymbol() {
 	return symbol;
 }
@@ -49,7 +70,6 @@ public void setSymbol(String symbol) {
 		this.date=date;
 	}
 	/**
-	 * 
 	 * this method print the stock's data to the screen.
 	 */
 	public String getHtmlDescription(){
