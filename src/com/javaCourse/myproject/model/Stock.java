@@ -1,5 +1,5 @@
 
-package com.example.myproject.model;
+package com.javaCourse.myproject.model;
 
 import java.util.Calendar;
 

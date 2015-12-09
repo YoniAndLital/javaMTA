@@ -1,4 +1,4 @@
-package com.example.myproject.model;
+package com.javaCourse.myproject.model;
 /**
  * 
  * Portfolio- its a class that create and add a new stock to an array stock.

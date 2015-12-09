@@ -1,6 +1,7 @@
-package com.example.myproject.service;
+package com.javaCourse.myproject.service;
 import java.util.Calendar;
-import com.example.myproject.model.*;
+
+import com.javaCourse.myproject.model.*;
 /**
  * 
  * this class add data to the porfolio class.

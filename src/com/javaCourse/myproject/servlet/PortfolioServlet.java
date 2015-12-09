@@ -1,6 +1,4 @@
-package com.example.myproject.servlet;
-
-import com.example.myproject.model.*;
+package com.javaCourse.myproject.servlet;
 
 import java.io.IOException;
 
@@ -8,8 +6,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.example.myproject.model.Portfolio;
-import com.example.myproject.service.PortfolioManager;
+import com.javaCourse.myproject.model.*;
+import com.javaCourse.myproject.service.PortfolioManager;
 /**
  * 
  * this class creates place in the system to portfolio manager and to portfolio.
