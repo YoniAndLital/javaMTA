@@ -14,7 +14,7 @@ import com.javaCourse.myproject.service.PortfolioManager;
  * this class gets data from portfolio manager and add him to portfolio. 
  *
  */
-@SuppressWarnings("unused")
+
 public class PortfolioServlet extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 		resp.setContentType("text/html");
@@ -34,4 +34,5 @@ public class PortfolioServlet extends HttpServlet {
 		resp.getWriter().println("<br>");
 		resp.getWriter().println(portfolio2.getHtmlString());
 	}
+	
 }
